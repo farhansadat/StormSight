@@ -208,4 +208,4 @@ For issues or questions, [open an issue](https://github.com/your-username/storms
 ---
 
 ### 🔗 Live Demo  
-👉 [View Live App on Netlify](#)
+👉 [View Live App on Netlify](https://stormsight.netlify.app/)

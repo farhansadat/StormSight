@@ -1,0 +1,35 @@
+{
+  "name": "stormsight",
+  "version": "1.0.0",
+  "description": "Advanced weather application with interactive radar and real-time forecasting",
+  "main": "dist/index.html",
+  "scripts": {
+    "build": "echo 'Static build - files ready in dist/'",
+    "deploy": "netlify deploy --prod --dir=dist",
+    "dev": "netlify dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/farhansadat/StormSight.git"
+  },
+  "keywords": [
+    "weather",
+    "forecast",
+    "radar",
+    "meteorology",
+    "interactive-map",
+    "real-time"
+  ],
+  "author": "Said Alimullah Sadat",
+  "license": "MIT",
+  "homepage": "https://github.com/farhansadat/StormSight",
+  "bugs": {
+    "url": "https://github.com/farhansadat/StormSight/issues"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

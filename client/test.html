@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App Test</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: white;
+            padding: 20px;
+        }
+
+        .test-container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .weather-card {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(25px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 25px;
+            padding: 30px;
+            margin: 20px 0;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        .title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .temp {
+            font-size: 4rem;
+            font-weight: 700;
+            margin: 20px 0;
+        }
+
+        .condition {
+            font-size: 1.5rem;
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <h1 class="title">WeatherPro Test</h1>
+        <div class="weather-card">
+            <div class="temp">21°</div>
+            <div class="condition">Clear Sky</div>
+            <p>London, GB</p>
+        </div>
+        <p>If you can see this, the HTML/CSS is working correctly.</p>
+    </div>
+
+    <script>
+        console.log('Test page loaded successfully');
+        document.body.style.visibility = 'visible';
+    </script>
+</body>
+</html>
